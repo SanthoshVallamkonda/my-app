@@ -32,12 +32,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
-		    <url>http://ec2-18-218-76-95.us-east-2.compute.amazonaws.com:8081/repository/maven-snapshot/</url>
+		    <url>http://172.31.44.155:8081/repository/maven-snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus</id>
-		    <url>http://ec2-18-218-76-95.us-east-2.compute.amazonaws.com:8081/repository/maven-release/</url>
+		    <url>http://172.31.44.155:8081/repository/maven-release/</url>
 		</repository>
   	</distributionManagement>
 	
